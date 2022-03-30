@@ -1,0 +1,484 @@
+-> request: /sso/ping
+-> GET /sso/ping,200|502ms
+-> request: /sso/ping
+-> GET /sso/ping,200|567ms
+-> request: /sso/ping
+-> GET /sso/ping,200|1023ms
+-> request: /sso/ping
+-> GET /sso/ping,200|537ms
+-> request: /sso/ping
+-> GET /sso/ping,200|532ms
+-> request: /sso/ping
+-> GET /sso/ping,200|511ms
+-> request: /sso/ping
+-> GET /sso/ping,200|415ms
+-> request: /sso/ping
+-> GET /sso/ping,200|578ms
+-> request: /sso/ping
+-> GET /sso/ping,200|501ms
+-> request: /sso/ping
+-> GET /sso/ping,200|353ms
+-> request: /sso/ping
+-> GET /sso/ping,200|492ms
+-> request: /sso/ping
+-> GET /sso/ping,200|580ms
+-> request: /sso/ping
+-> GET /sso/ping,200|554ms
+-> request: /sso/ping
+-> GET /sso/ping,200|590ms
+-> request: /sso/ping
+-> GET /sso/ping,200|525ms
+-> request: /sso/ping
+-> GET /sso/ping,200|596ms
+-> request: /sso/ping
+-> GET /sso/ping,200|499ms
+-> request: /sso/ping
+-> GET /sso/ping,200|529ms
+-> request: /sso/ping
+-> request: /sso/ping
+-> GET /sso/ping,200|1178ms
+-> GET /sso/Login?forwardTo=22&RL=1&ip2loc=US
+uri /sso/Login?forwardTo=22&RL=1&ip2loc=US failed
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[na:na]
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[na:na]
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288) ~[netty-buffer-4.1.15.Final.jar:4.1.15.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1106) ~[netty-buffer-4.1.15.Final.jar:4.1.15.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:373) ~[netty-transport-4.1.15.Final.jar:4.1.15.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) ~[netty-transport-4.1.15.Final.jar:4.1.15.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645) ~[netty-transport-4.1.15.Final.jar:4.1.15.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:545) ~[netty-transport-4.1.15.Final.jar:4.1.15.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:499) ~[netty-transport-4.1.15.Final.jar:4.1.15.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) ~[netty-transport-4.1.15.Final.jar:4.1.15.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) ~[netty-common-4.1.15.Final.jar:4.1.15.Final]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+-> request: /sso/ping
+-> GET /sso/ping,200|752ms
+-> request: /sso/ping
+-> GET /sso/ping,200|510ms
+-> request: /sso/ping
+-> GET /sso/ping,200|518ms
+-> request: /sso/ping
+-> GET /sso/ping,200|555ms
+-> request: /sso/ping
+-> GET /sso/ping,200|588ms
+-> request: /sso/ping
+-> GET /sso/ping,200|621ms
+-> request: /sso/ping
+-> GET /sso/ping,200|356ms
+-> request: /sso/ping
+-> GET /sso/ping,200|506ms
+-> POST /sso/Dispatcher;jsessionid=B41B2B5F10C5A061AB5317E24D9D66B8.ny5wwwdam1-internet
+<- 200 POST /sso/Dispatcher;jsessionid=B41B2B5F10C5A061AB5317E24D9D66B8.ny5wwwdam1-internet
+-> GET /sso/Templates/otp-responsive.css?1647471775582
+-> GET /scripts/common/js/jquery-ui-1.12.1/jquery-ui.min.js
+-> GET /scripts/common/js/switchery/switchery-init.js
+<- 200 GET /sso/Templates/otp-responsive.css?1647471775582
+-> GET /scripts/common/js/icheck-1.0.2/icheck.min.js
+-> GET /scripts/common/js/icheck-1.0.2/icheck-init.js
+-> GET /sso/CombineFiles
+-> GET /scripts/common/js/jquery-3.4.1/jquery.min.js
+<- 200 GET /scripts/common/js/jquery-ui-1.12.1/jquery-ui.min.js
+<- 200 GET /scripts/common/js/switchery/switchery-init.js
+-> GET /scripts/common/js/bootstrap-4.3.1/bootstrap.bundle.min.js
+<- 200 GET /scripts/common/js/icheck-1.0.2/icheck.min.js
+-> GET /scripts/common/js/bootstrap-switch-3.3.2/bootstrap-switch.min.js
+<- 200 GET /scripts/common/js/icheck-1.0.2/icheck-init.js
+-> GET /scripts/common/js/switchery/switchery.min.js
+<- 200 GET /scripts/common/js/jquery-3.4.1/jquery.min.js
+<- 200 GET /scripts/common/js/bootstrap-4.3.1/bootstrap.bundle.min.js
+<- 200 GET /scripts/common/js/bootstrap-switch-3.3.2/bootstrap-switch.min.js
+<- 200 GET /scripts/common/js/switchery/switchery.min.js
+-> GET /sso/images/2fa.png
+<- 200 GET /sso/images/2fa.png
+-> GET /images/2015/btn-app-apple.png
+<- 200 GET /images/2015/btn-app-apple.png
+-> GET /images/2015/btn-app-google.png
+<- 200 GET /images/2015/btn-app-google.png
+-> GET /images/2015/btn-app-tws.png
+<- 200 GET /images/2015/btn-app-tws.png
+-> GET /images/2015/button_discover_apis.png
+<- 200 GET /images/2015/button_discover_apis.png
+<- 200 GET /sso/CombineFiles
+-> GET /sso/Templates/otp-responsive.css?1647471775582
+-> GET /scripts/common/js/bootstrap-4.3.1/bootstrap.bundle.min.js.map
+<- 200 GET /sso/Templates/otp-responsive.css?1647471775582
+<- 200 GET /scripts/common/js/bootstrap-4.3.1/bootstrap.bundle.min.js.map
+-> POST /sso/Authenticator?70512
+<- 200 POST /sso/Authenticator?70512
+-> POST /sso/Authenticator?38144
+<- 200 POST /sso/Authenticator?38144
+-> POST /sso/Dispatcher
+<- 302 POST /sso/Dispatcher
+-> request: /v1/api/sso/validate?gw=1
+-> request: /AccountManagement/OneBarAuthentication?json=1
+-> GET /AccountManagement/OneBarAuthentication?json=1,404|118ms
+-> GET /v1/api/sso/validate?gw=1,200|1023ms
+-> request: /v1/api/one/user
+-> request: /sso/AuthenticateSSODH?ACTION=INIT
+-> sso GET https://api.ibkr.com/sso/AuthenticateSSODH?ACTION=INIT
+-> request: /sso/AuthenticateSSODH?ACTION=COMPLETE&B=bdb06ca7a13a343f5ddf3c6ab706a0fadd1f64877c6dac09b5e133ce2d543c324b693754535c1f0855900f63456415390993eaecd46be4d7377ebf6000ca54c5&CHRESPONSE=86b5a0419529e363e44cbaccf75da2fd6b823e81
+-> sso GET https://api.ibkr.com/sso/AuthenticateSSODH?ACTION=COMPLETE&B=bdb06ca7a13a343f5ddf3c6ab706a0fadd1f64877c6dac09b5e133ce2d543c324b693754535c1f0855900f63456415390993eaecd46be4d7377ebf6000ca54c5&CHRESPONSE=86b5a0419529e363e44cbaccf75da2fd6b823e81
+-> request: /v1/api/iserver/auth/status
+-> GET /v1/api/iserver/auth/status,200|107ms
+-> request: /v1/api/iserver/auth/ssodh/init
+-> POST https://api.ibkr.com/v1/api/iserver/auth/ssodh/init,200|677ms
+-> request: /v1/api/iserver/auth/ssodh/response
+-> POST https://api.ibkr.com/v1/api/iserver/auth/ssodh/response,200|283ms
+-> request: /v1/api/iserver/auth/ssodh/init
+-> POST https://api.ibkr.com/v1/api/iserver/auth/ssodh/init,200|142ms
+-> GET /v1/api/one/user,503|10111ms
+-> GET /v1/api/portfolio/accounts
+<- 200 GET /v1/api/portfolio/accounts
+-> GET /v1/api/portfolio/accounts
+<- 200 GET /v1/api/portfolio/accounts
+-> GET /v1/api/portfolio/accounts
+<- 200 GET /v1/api/portfolio/accounts
+-> GET /v1/api/portfolio/accounts
+<- 200 GET /v1/api/portfolio/accounts
+-> GET /v1/api/portfolio/accounts
+<- 200 GET /v1/api/portfolio/accounts
+-> GET /v1/api/portfolio/accounts
+<- 200 GET /v1/api/portfolio/accounts
+-> GET /v1/api/portfolio/accounts
+<- 200 GET /v1/api/portfolio/accounts
+-> GET /v1/api/portfolio/accounts
+<- 200 GET /v1/api/portfolio/accounts
+-> GET /v1/api/portfolio/accounts
+<- 200 GET /v1/api/portfolio/accounts
+-> GET /v1/api/portfolio/accounts
+<- 200 GET /v1/api/portfolio/accounts
+-> GET /v1/api/portfolio/accounts
+<- 200 GET /v1/api/portfolio/accounts
+-> GET /v1/api/portfolio/accounts
+<- 200 GET /v1/api/portfolio/accounts
+-> GET /v1/api/portfolio/accounts
+<- 200 GET /v1/api/portfolio/accounts
+-> GET /v1/api/portfolio/accounts
+<- 200 GET /v1/api/portfolio/accounts
+-> request: /sso/ping
+-> GET /v1/api/portfolio/accounts
+-> GET /sso/ping,200|311ms
+<- 200 GET /v1/api/portfolio/accounts
+-> GET /v1/api/portfolio/accounts
+<- 200 GET /v1/api/portfolio/accounts
+-> GET /v1/api/portfolio/accounts
+<- 200 GET /v1/api/portfolio/accounts
+-> GET /v1/api/portfolio/accounts
+<- 200 GET /v1/api/portfolio/accounts
+-> GET /v1/api/portfolio/accounts
+<- 200 GET /v1/api/portfolio/accounts
+-> GET /v1/api/portfolio/accounts
+<- 200 GET /v1/api/portfolio/accounts
+-> GET /v1/api/portfolio/accounts
+<- 200 GET /v1/api/portfolio/accounts
+-> GET /v1/api/portfolio/accounts
+<- 200 GET /v1/api/portfolio/accounts
+-> GET /v1/api/portfolio/accounts
+<- 200 GET /v1/api/portfolio/accounts
+-> GET /v1/api/portfolio/accounts
+<- 200 GET /v1/api/portfolio/accounts
+-> GET /v1/api/portfolio/accounts
+<- 200 GET /v1/api/portfolio/accounts
+-> GET /v1/api/portfolio/accounts
+<- 200 GET /v1/api/portfolio/accounts
+-> GET /v1/api/portfolio/accounts
+<- 200 GET /v1/api/portfolio/accounts
+-> GET /v1/api/portfolio/accounts
+<- 200 GET /v1/api/portfolio/accounts
+-> GET /v1/api/portfolio/accounts
+<- 200 GET /v1/api/portfolio/accounts
+-> GET /v1/api/portfolio/accounts
+<- 200 GET /v1/api/portfolio/accounts
+-> GET /v1/api/portfolio/accounts
+<- 200 GET /v1/api/portfolio/accounts
+-> GET /v1/api/portfolio/accounts
+<- 200 GET /v1/api/portfolio/accounts
+-> GET /v1/api/portfolio/accounts
+<- 200 GET /v1/api/portfolio/accounts
+-> GET /v1/api/portfolio/accounts
+<- 200 GET /v1/api/portfolio/accounts
+-> request: /sso/ping
+-> GET /sso/ping,200|578ms
+-> GET /v1/api/portfolio/accounts
+<- 200 GET /v1/api/portfolio/accounts
+-> GET /v1/api/portfolio/accounts
+<- 200 GET /v1/api/portfolio/accounts
+-> GET /v1/api/portfolio/accounts
+<- 200 GET /v1/api/portfolio/accounts
+-> GET /v1/api/portfolio/accounts
+<- 200 GET /v1/api/portfolio/accounts
+-> GET /v1/api/portfolio/accounts
+<- 200 GET /v1/api/portfolio/accounts
+-> GET /v1/api/portfolio/accounts
+<- 200 GET /v1/api/portfolio/accounts
+-> GET /v1/api/portfolio/accounts
+<- 200 GET /v1/api/portfolio/accounts
+-> GET /v1/api/portfolio/accounts
+<- 200 GET /v1/api/portfolio/accounts
+-> GET /v1/api/portfolio/accounts
+<- 200 GET /v1/api/portfolio/accounts
+-> GET /v1/api/portfolio/accounts
+<- 200 GET /v1/api/portfolio/accounts
+-> GET /v1/api/portfolio/accounts
+<- 200 GET /v1/api/portfolio/accounts
+-> GET /v1/api/portfolio/accounts
+<- 200 GET /v1/api/portfolio/accounts
+-> GET /v1/api/portfolio/accounts
+<- 200 GET /v1/api/portfolio/accounts
+-> GET /v1/api/portfolio/accounts
+<- 200 GET /v1/api/portfolio/accounts
+-> GET /v1/api/portfolio/accounts
+<- 200 GET /v1/api/portfolio/accounts
+-> GET /v1/api/portfolio/accounts
+<- 200 GET /v1/api/portfolio/accounts
+-> GET /v1/api/portfolio/accounts
+<- 200 GET /v1/api/portfolio/accounts
+-> GET /v1/api/portfolio/accounts
+<- 200 GET /v1/api/portfolio/accounts
+-> GET /v1/api/portfolio/accounts
+<- 200 GET /v1/api/portfolio/accounts
+-> GET /v1/api/portfolio/accounts
+<- 200 GET /v1/api/portfolio/accounts
+-> request: /sso/ping
+-> GET /sso/ping,200|398ms
+-> GET /v1/api/portfolio/accounts
+<- 200 GET /v1/api/portfolio/accounts
+-> GET /v1/api/portfolio/accounts
+<- 200 GET /v1/api/portfolio/accounts
+-> GET /v1/api/portfolio/accounts
+<- 200 GET /v1/api/portfolio/accounts
+-> request: /sso/ping
+-> GET /sso/ping,200|521ms
+-> GET /v1/api/portfolio/accounts
+<- 200 GET /v1/api/portfolio/accounts
+-> GET /v1/api/portfolio/accounts
+<- 200 GET /v1/api/portfolio/accounts
+-> GET /v1/api/portfolio/accounts
+<- 200 GET /v1/api/portfolio/accounts
+-> GET /v1/api/portfolio/accounts
+<- 200 GET /v1/api/portfolio/accounts
+-> GET /v1/api/portfolio/accounts
+<- 200 GET /v1/api/portfolio/accounts
+-> GET /v1/api/portfolio/accounts
+<- 200 GET /v1/api/portfolio/accounts
+-> GET /v1/api/portfolio/accounts
+<- 200 GET /v1/api/portfolio/accounts
+-> GET /v1/api/portfolio/accounts
+<- 200 GET /v1/api/portfolio/accounts
+-> GET /v1/api/portfolio/accounts
+<- 200 GET /v1/api/portfolio/accounts
+-> GET /v1/api/portfolio/accounts
+<- 200 GET /v1/api/portfolio/accounts
+-> GET /v1/api/portfolio/accounts
+<- 200 GET /v1/api/portfolio/accounts
+-> GET /v1/api/portfolio/accounts
+<- 200 GET /v1/api/portfolio/accounts
+-> GET /v1/api/portfolio/accounts
+<- 200 GET /v1/api/portfolio/accounts
+-> request: /sso/ping
+-> GET /sso/ping,200|594ms
+-> GET /v1/api/portfolio/accounts
+<- 200 GET /v1/api/portfolio/accounts
+-> request: /sso/ping
+-> GET /sso/ping,200|512ms
+-> GET /v1/api/portfolio/accounts
+<- 200 GET /v1/api/portfolio/accounts
+-> request: /sso/ping
+-> GET /sso/ping,200|350ms
+-> GET /v1/api/portfolio/accounts
+<- 200 GET /v1/api/portfolio/accounts
+-> GET /v1/api/portfolio/accounts
+<- 200 GET /v1/api/portfolio/accounts
+-> GET /v1/api/portfolio/accounts
+<- 200 GET /v1/api/portfolio/accounts
+-> GET /v1/api/portfolio/accounts
+<- 200 GET /v1/api/portfolio/accounts
+-> GET /v1/api/portfolio/accounts
+<- 200 GET /v1/api/portfolio/accounts
+-> GET /v1/api/portfolio/accounts
+<- 200 GET /v1/api/portfolio/accounts
+-> request: /sso/ping
+-> GET /sso/ping,200|303ms
+-> GET /v1/api/portfolio/accounts
+<- 200 GET /v1/api/portfolio/accounts
+-> request: /sso/ping
+-> GET /sso/ping,200|684ms
+-> GET /v1/api/portfolio/accounts
+<- 200 GET /v1/api/portfolio/accounts
+-> request: /sso/ping
+-> GET /sso/ping,200|567ms
+-> GET /v1/api/portfolio/accounts
+<- 200 GET /v1/api/portfolio/accounts
+-> GET /v1/api/portfolio/accounts
+<- 200 GET /v1/api/portfolio/accounts
+-> request: /sso/ping
+-> GET /sso/ping,200|607ms
+-> request: /sso/ping
+-> GET /sso/ping,200|599ms
+-> request: /sso/ping
+-> GET /sso/ping,200|371ms
+-> request: /sso/ping
+-> GET /sso/ping,200|535ms
+-> request: /sso/ping
+-> GET /sso/ping,200|404ms
+-> request: /sso/ping
+-> request: /sso/ping
+-> GET /sso/ping,200|1687ms
+-> request: /sso/ping
+-> GET /sso/ping,200|595ms
+-> request: /sso/ping
+-> GET /sso/ping,200|622ms
+-> request: /sso/ping
+-> GET /sso/ping,200|669ms
+-> request: /sso/ping
+-> GET /sso/ping,200|621ms
+-> request: /sso/ping
+-> GET /sso/ping,200|641ms
+-> request: /sso/ping
+-> GET /sso/ping,200|602ms
+-> request: /sso/ping
+-> GET /sso/ping,200|394ms
+-> request: /sso/ping
+-> GET /sso/ping,200|376ms
+-> request: /sso/ping
+-> GET /sso/ping,200|565ms
+-> request: /sso/ping
+-> GET /sso/ping,200|627ms
+-> request: /sso/ping
+-> GET /sso/ping,200|671ms
+-> request: /sso/ping
+-> GET /sso/ping,200|676ms
+-> request: /sso/ping
+-> GET /sso/ping,200|624ms
+-> request: /sso/ping
+-> GET /sso/ping,200|460ms
+-> request: /sso/ping
+-> GET /sso/ping,200|611ms
+-> request: /sso/ping
+-> GET /sso/ping,200|619ms
+-> request: /sso/ping
+-> GET /sso/ping,200|684ms
+-> request: /sso/ping
+-> GET /sso/ping,200|649ms
+-> request: /sso/ping
+-> GET /sso/ping,200|524ms
+-> request: /sso/ping
+-> GET /sso/ping,200|611ms
+-> GET /v1/api/portfolio/accounts
+<- 401 GET /v1/api/portfolio/accounts
+-> request: /sso/ping
+-> GET /sso/ping,200|575ms
+-> GET /v1/api/portfolio/accounts
+<- 401 GET /v1/api/portfolio/accounts
+-> GET /v1/api/portfolio/accounts
+<- 401 GET /v1/api/portfolio/accounts
+-> GET /v1/api/portfolio/accounts
+<- 401 GET /v1/api/portfolio/accounts
+-> GET /v1/api/portfolio/accounts
+<- 401 GET /v1/api/portfolio/accounts
+-> GET /v1/api/portfolio/accounts
+<- 401 GET /v1/api/portfolio/accounts
+-> GET /v1/api/portfolio/accounts
+<- 401 GET /v1/api/portfolio/accounts
+-> request: /sso/ping
+-> GET /sso/ping,200|529ms
+-> GET /v1/api/portfolio/accounts
+<- 401 GET /v1/api/portfolio/accounts
+-> GET /v1/api/portfolio/accounts
+<- 401 GET /v1/api/portfolio/accounts
+-> GET /v1/api/portfolio/accounts
+<- 401 GET /v1/api/portfolio/accounts
+-> request: /sso/ping
+-> GET /sso/ping,200|578ms
+-> GET /v1/api/portfolio/accounts
+<- 401 GET /v1/api/portfolio/accounts
+-> request: /sso/ping
+-> GET /sso/ping,200|381ms
+-> GET /v1/api/portfolio/accounts
+<- 401 GET /v1/api/portfolio/accounts
+-> GET /v1/api/portfolio/accounts
+<- 401 GET /v1/api/portfolio/accounts
+-> GET /v1/api/portfolio/accounts
+<- 401 GET /v1/api/portfolio/accounts
+-> GET /v1/api/portfolio/accounts
+<- 401 GET /v1/api/portfolio/accounts
+-> GET /v1/api/portfolio/accounts
+<- 401 GET /v1/api/portfolio/accounts
+-> request: /sso/ping
+-> GET /sso/ping,200|638ms
+-> request: /sso/ping
+-> GET /sso/ping,200|675ms
+-> request: /sso/ping
+-> GET /sso/ping,200|820ms
+-> request: /sso/ping
+-> GET /sso/ping,200|747ms
+-> request: /sso/ping
+-> GET /sso/ping,200|474ms
+-> request: /sso/ping
+-> GET /sso/ping,200|607ms
+-> request: /sso/ping
+-> GET /sso/ping,200|610ms
+-> request: /sso/ping
+-> GET /sso/ping,200|482ms
+-> request: /sso/ping
+-> GET /sso/ping,200|664ms
+-> GET /v1/api/portfolio/accounts
+<- 401 GET /v1/api/portfolio/accounts
+-> request: /sso/ping
+-> GET /sso/ping,200|656ms
+-> GET /v1/api/portfolio/accounts
+<- 401 GET /v1/api/portfolio/accounts
+-> request: /sso/ping
+-> GET /sso/ping,200|549ms
+-> GET /v1/api/portfolio/accounts
+<- 401 GET /v1/api/portfolio/accounts
+-> GET /v1/api/portfolio/accounts
+<- 401 GET /v1/api/portfolio/accounts
+-> GET /v1/api/portfolio/accounts
+<- 401 GET /v1/api/portfolio/accounts
+-> GET /v1/api/portfolio/accounts
+<- 401 GET /v1/api/portfolio/accounts
+-> request: /sso/ping
+-> GET /sso/ping,200|789ms
+-> request: /sso/ping
+-> GET /sso/ping,200|586ms
+-> request: /sso/ping
+-> GET /sso/ping,200|588ms
+-> request: /sso/ping
+-> GET /sso/ping,200|950ms
+-> request: /sso/ping
+-> GET /sso/ping,200|666ms
+-> request: /sso/ping
+-> GET /sso/ping,200|638ms
+-> request: /sso/ping
+-> GET /sso/ping,200|697ms
+-> request: /sso/ping
+-> GET /sso/ping,200|735ms
+-> request: /sso/ping
+-> GET /sso/ping,200|607ms
+-> request: /sso/ping
+-> GET /sso/ping,200|670ms
+-> request: /sso/ping
+-> GET /sso/ping,200|683ms
+-> request: /sso/ping
+-> GET /sso/ping,200|613ms
+-> request: /sso/ping
+-> GET /sso/ping,200|623ms
+-> request: /sso/ping
+-> GET /sso/ping,200|685ms
+-> request: /sso/ping
+-> GET /sso/ping,200|414ms
+-> request: /sso/ping
+-> GET /sso/ping,200|660ms
+-> request: /sso/ping
+-> GET /sso/ping,200|998ms
+-> request: /sso/ping
+-> GET /sso/ping,200|436ms
+-> request: /sso/ping
+-> GET /sso/ping,200|717ms
+-> request: /sso/ping
+-> GET /sso/ping,200|668ms
+-> request: /sso/ping
+-> GET /sso/ping,200|461ms
+-> request: /sso/ping

@@ -1,0 +1,679 @@
+-> request: /sso/ping
+-> GET /sso/ping,200|547ms
+-> request: /sso/ping
+-> GET /sso/ping,200|500ms
+-> request: /sso/ping
+-> GET /sso/ping,200|343ms
+-> request: /sso/ping
+-> GET /sso/ping,200|302ms
+-> request: /sso/ping
+-> GET /sso/ping,200|544ms
+-> request: /sso/ping
+-> GET /sso/ping,200|542ms
+-> request: /sso/ping
+-> GET /sso/ping,200|537ms
+-> request: /sso/ping
+-> GET /sso/ping,200|342ms
+-> request: /sso/ping
+-> GET /sso/ping,200|344ms
+-> request: /sso/ping
+-> GET /sso/ping,200|343ms
+-> request: /sso/ping
+-> GET /sso/ping,200|335ms
+-> request: /sso/ping
+-> GET /sso/ping,200|541ms
+-> request: /sso/ping
+-> GET /sso/ping,200|543ms
+-> request: /sso/ping
+-> GET /sso/ping,200|1261ms
+-> request: /sso/ping
+-> GET /sso/ping,200|535ms
+-> request: /sso/ping
+-> GET /sso/ping,200|548ms
+-> request: /sso/ping
+-> GET /sso/ping,200|606ms
+-> request: /sso/ping
+-> GET /sso/ping,200|559ms
+-> request: /sso/ping
+-> GET /sso/ping,200|540ms
+-> request: /sso/ping
+-> GET /sso/ping,200|545ms
+-> request: /sso/ping
+-> GET /sso/ping,200|542ms
+-> request: /sso/ping
+-> GET /sso/ping,200|540ms
+-> request: /sso/ping
+-> GET /sso/ping,200|353ms
+-> request: /sso/ping
+-> GET /sso/ping,200|544ms
+-> request: /sso/ping
+-> GET /sso/ping,200|544ms
+-> request: /sso/ping
+-> GET /sso/ping,200|546ms
+-> GET /v1/api/portfolio/accounts
+uri /v1/api/portfolio/accounts failed
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[na:na]
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[na:na]
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288) ~[netty-buffer-4.1.15.Final.jar:4.1.15.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1106) ~[netty-buffer-4.1.15.Final.jar:4.1.15.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:373) ~[netty-transport-4.1.15.Final.jar:4.1.15.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) ~[netty-transport-4.1.15.Final.jar:4.1.15.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645) ~[netty-transport-4.1.15.Final.jar:4.1.15.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:545) ~[netty-transport-4.1.15.Final.jar:4.1.15.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:499) ~[netty-transport-4.1.15.Final.jar:4.1.15.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) ~[netty-transport-4.1.15.Final.jar:4.1.15.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) ~[netty-common-4.1.15.Final.jar:4.1.15.Final]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+-> GET /sso/Login?forwardTo=22&RL=1&ip2loc=US
+<- 200 GET /sso/Login?forwardTo=22&RL=1&ip2loc=US
+-> GET /sso/Templates/otp-responsive.css?1647926219601
+-> GET /scripts/common/js/bootstrap-4.3.1/bootstrap.bundle.min.js
+-> GET /scripts/common/js/switchery/switchery-init.js
+-> GET /scripts/common/js/icheck-1.0.2/icheck.min.js
+-> GET /scripts/common/js/icheck-1.0.2/icheck-init.js
+-> GET /sso/CombineFiles
+<- 200 GET /sso/Templates/otp-responsive.css?1647926219601
+-> GET /scripts/common/js/jquery-3.4.1/jquery.min.js
+<- 200 GET /scripts/common/js/bootstrap-4.3.1/bootstrap.bundle.min.js
+<- 200 GET /scripts/common/js/switchery/switchery-init.js
+-> GET /scripts/common/js/jquery-ui-1.12.1/jquery-ui.min.js
+<- 200 GET /scripts/common/js/icheck-1.0.2/icheck-init.js
+<- 200 GET /scripts/common/js/icheck-1.0.2/icheck.min.js
+-> GET /scripts/common/js/bootstrap-switch-3.3.2/bootstrap-switch.min.js
+-> GET /scripts/common/js/switchery/switchery.min.js
+<- 200 GET /scripts/common/js/jquery-3.4.1/jquery.min.js
+<- 200 GET /scripts/common/js/jquery-ui-1.12.1/jquery-ui.min.js
+<- 200 GET /scripts/common/js/bootstrap-switch-3.3.2/bootstrap-switch.min.js
+<- 200 GET /scripts/common/js/switchery/switchery.min.js
+-> GET /sso/images/2fa.png
+<- 200 GET /sso/images/2fa.png
+-> GET /images/2015/btn-app-apple.png
+<- 200 GET /images/2015/btn-app-apple.png
+-> GET /images/2015/btn-app-google.png
+<- 200 GET /images/2015/btn-app-google.png
+-> GET /images/2015/btn-app-tws.png
+<- 200 GET /images/2015/btn-app-tws.png
+-> GET /images/2015/button_discover_apis.png
+<- 200 GET /images/2015/button_discover_apis.png
+<- 200 GET /sso/CombineFiles
+-> POST /sso/Authenticator;jsessionid=3C4FBB0A1AF1488076983CFE9AB9069E.ny5wwwdam2-internet?64460
+<- 200 POST /sso/Authenticator;jsessionid=3C4FBB0A1AF1488076983CFE9AB9069E.ny5wwwdam2-internet?64460
+-> POST /sso/Authenticator;jsessionid=3C4FBB0A1AF1488076983CFE9AB9069E.ny5wwwdam2-internet?15672
+<- 200 POST /sso/Authenticator;jsessionid=3C4FBB0A1AF1488076983CFE9AB9069E.ny5wwwdam2-internet?15672
+-> POST /sso/Dispatcher;jsessionid=3C4FBB0A1AF1488076983CFE9AB9069E.ny5wwwdam2-internet
+<- 302 POST /sso/Dispatcher;jsessionid=3C4FBB0A1AF1488076983CFE9AB9069E.ny5wwwdam2-internet
+-> request: /v1/api/sso/validate?gw=1
+-> request: /AccountManagement/OneBarAuthentication?json=1
+-> GET /AccountManagement/OneBarAuthentication?json=1,404|193ms
+-> GET /v1/api/sso/validate?gw=1,200|1024ms
+-> request: /v1/api/one/user
+-> request: /sso/AuthenticateSSODH?ACTION=INIT
+-> sso GET https://api.ibkr.com/sso/AuthenticateSSODH?ACTION=INIT
+-> request: /sso/AuthenticateSSODH?ACTION=COMPLETE&B=4cfdb65ccabb4b302318eea89415a7cda16b2bf7ec6134136f45794a5f6385ccae06c82932c92be9aa91f979b4185859a50f64fe54d50886561a2732ac985f9c&CHRESPONSE=a3c3b7683cdfefa6be4dbf6b719f15f7bfd8ceaf
+-> sso GET https://api.ibkr.com/sso/AuthenticateSSODH?ACTION=COMPLETE&B=4cfdb65ccabb4b302318eea89415a7cda16b2bf7ec6134136f45794a5f6385ccae06c82932c92be9aa91f979b4185859a50f64fe54d50886561a2732ac985f9c&CHRESPONSE=a3c3b7683cdfefa6be4dbf6b719f15f7bfd8ceaf
+-> GET /v1/api/portfolio/accounts
+<- 200 GET /v1/api/portfolio/accounts
+-> request: /v1/api/iserver/auth/status
+-> GET /v1/api/iserver/auth/status,200|161ms
+-> request: /v1/api/iserver/auth/ssodh/init
+-> GET /v1/api/trsrv/stocks?symbols=AMD
+<- 200 GET /v1/api/trsrv/stocks?symbols=AMD
+-> GET /v1/api/iserver/marketdata/history?conid=undefined
+-> GET /v1/api/iserver/marketdata/history?conid=4391
+<- 401 GET /v1/api/iserver/marketdata/history?conid=undefined
+<- 401 GET /v1/api/iserver/marketdata/history?conid=4391
+-> GET /v1/api/one/user,503|10154ms
+-> POST https://api.ibkr.com/v1/api/iserver/auth/ssodh/init,503|10156ms
+-> GET /v1/api/iserver/marketdata/history?conid=undefined
+-> GET /v1/api/iserver/marketdata/history?conid=4391
+<- 401 GET /v1/api/iserver/marketdata/history?conid=undefined
+<- 401 GET /v1/api/iserver/marketdata/history?conid=4391
+-> GET /v1/api/iserver/marketdata/history?conid=265598
+<- 401 GET /v1/api/iserver/marketdata/history?conid=265598
+-> GET /sso/Login?forwardTo=22&RL=1&ip2loc=US
+<- 200 GET /sso/Login?forwardTo=22&RL=1&ip2loc=US
+-> GET /sso/Templates/otp-responsive.css?1647926394080
+-> GET /scripts/common/js/bootstrap-switch-3.3.2/bootstrap-switch.min.js
+-> GET /scripts/common/js/jquery-3.4.1/jquery.min.js
+-> GET /scripts/common/js/jquery-ui-1.12.1/jquery-ui.min.js
+-> GET /scripts/common/js/bootstrap-4.3.1/bootstrap.bundle.min.js
+-> GET /scripts/common/js/switchery/switchery.min.js
+<- 200 GET /sso/Templates/otp-responsive.css?1647926394080
+-> GET /scripts/common/js/switchery/switchery-init.js
+<- 200 GET /scripts/common/js/bootstrap-switch-3.3.2/bootstrap-switch.min.js
+<- 200 GET /scripts/common/js/switchery/switchery.min.js
+-> GET /scripts/common/js/icheck-1.0.2/icheck.min.js
+-> GET /scripts/common/js/icheck-1.0.2/icheck-init.js
+<- 200 GET /scripts/common/js/jquery-3.4.1/jquery.min.js
+<- 200 GET /scripts/common/js/jquery-ui-1.12.1/jquery-ui.min.js
+-> GET /sso/CombineFiles
+<- 200 GET /scripts/common/js/switchery/switchery-init.js
+<- 200 GET /scripts/common/js/icheck-1.0.2/icheck.min.js
+<- 200 GET /scripts/common/js/icheck-1.0.2/icheck-init.js
+<- 200 GET /scripts/common/js/bootstrap-4.3.1/bootstrap.bundle.min.js
+-> GET /sso/images/2fa.png
+<- 200 GET /sso/images/2fa.png
+-> GET /images/2015/btn-app-apple.png
+<- 200 GET /images/2015/btn-app-apple.png
+-> GET /images/2015/btn-app-google.png
+<- 200 GET /images/2015/btn-app-google.png
+-> GET /images/2015/btn-app-tws.png
+<- 200 GET /images/2015/btn-app-tws.png
+-> GET /images/2015/button_discover_apis.png
+<- 200 GET /images/2015/button_discover_apis.png
+<- 200 GET /sso/CombineFiles
+-> POST /sso/Authenticator?58284
+<- 200 POST /sso/Authenticator?58284
+-> POST /sso/Authenticator?62430
+<- 200 POST /sso/Authenticator?62430
+-> POST /sso/Authenticator?301
+<- 200 POST /sso/Authenticator?301
+-> POST /sso/Authenticator?93727
+<- 200 POST /sso/Authenticator?93727
+-> GET /sso/Login?forwardTo=22&RL=1&ip2loc=US
+<- 200 GET /sso/Login?forwardTo=22&RL=1&ip2loc=US
+-> GET /sso/Templates/otp-responsive.css?1647926437058
+-> GET /sso/CombineFiles
+<- 200 GET /sso/Templates/otp-responsive.css?1647926437058
+<- 200 GET /sso/CombineFiles
+-> GET /sso/Login?forwardTo=22&RL=1&ip2loc=US
+<- 200 GET /sso/Login?forwardTo=22&RL=1&ip2loc=US
+-> GET /scripts/common/js/jquery-3.4.1/jquery.min.js
+-> GET /scripts/common/js/bootstrap-switch-3.3.2/bootstrap-switch.min.js
+-> GET /scripts/common/js/switchery/switchery-init.js
+-> GET /scripts/common/js/jquery-ui-1.12.1/jquery-ui.min.js
+-> GET /scripts/common/js/bootstrap-4.3.1/bootstrap.bundle.min.js
+-> GET /scripts/common/js/switchery/switchery.min.js
+<- 304 GET /scripts/common/js/switchery/switchery-init.js
+<- 304 GET /scripts/common/js/jquery-3.4.1/jquery.min.js
+<- 304 GET /scripts/common/js/jquery-ui-1.12.1/jquery-ui.min.js
+-> GET /sso/Templates/otp-responsive.css?1647926440821
+<- 304 GET /scripts/common/js/bootstrap-4.3.1/bootstrap.bundle.min.js
+<- 304 GET /scripts/common/js/bootstrap-switch-3.3.2/bootstrap-switch.min.js
+-> GET /scripts/common/js/icheck-1.0.2/icheck-init.js
+-> GET /sso/CombineFiles
+-> GET /scripts/common/js/icheck-1.0.2/icheck.min.js
+<- 304 GET /scripts/common/js/switchery/switchery.min.js
+<- 304 GET /scripts/common/js/icheck-1.0.2/icheck-init.js
+<- 304 GET /scripts/common/js/icheck-1.0.2/icheck.min.js
+<- 200 GET /sso/Templates/otp-responsive.css?1647926440821
+-> GET /sso/images/2fa.png
+<- 200 GET /sso/images/2fa.png
+<- 200 GET /sso/CombineFiles
+-> GET /images/2015/btn-app-google.png
+-> GET /images/2015/btn-app-apple.png
+-> GET /images/2015/btn-app-tws.png
+-> GET /images/2015/button_discover_apis.png
+<- 200 GET /images/2015/btn-app-google.png
+<- 200 GET /images/2015/btn-app-apple.png
+<- 200 GET /images/2015/btn-app-tws.png
+<- 200 GET /images/2015/button_discover_apis.png
+-> request: /sso/ping
+-> GET /sso/ping,200|503ms
+-> request: /sso/ping
+-> GET /sso/ping,200|609ms
+-> POST /sso/Authenticator?21402
+<- 200 POST /sso/Authenticator?21402
+-> POST /sso/Authenticator?95149
+<- 200 POST /sso/Authenticator?95149
+-> POST /sso/Dispatcher
+<- 302 POST /sso/Dispatcher
+-> request: /v1/api/sso/validate?gw=1
+-> request: /AccountManagement/OneBarAuthentication?json=1
+-> GET /AccountManagement/OneBarAuthentication?json=1,404|973ms
+-> GET /v1/api/sso/validate?gw=1,200|1734ms
+-> request: /v1/api/one/user
+-> request: /sso/AuthenticateSSODH?ACTION=INIT
+-> sso GET https://api.ibkr.com/sso/AuthenticateSSODH?ACTION=INIT
+-> request: /sso/AuthenticateSSODH?ACTION=COMPLETE&B=b02eb686e5f863dc035a1d92467aaf528642d6ca5c62a89ff295d048bce84a57b9effcd74a6f1e7d8f667a5a1ce9fb7a57f7a62654386fda8a32ffa18a8b0211&CHRESPONSE=eb6d9207c9ea29802e340fe529391d6edf193dc1
+-> sso GET https://api.ibkr.com/sso/AuthenticateSSODH?ACTION=COMPLETE&B=b02eb686e5f863dc035a1d92467aaf528642d6ca5c62a89ff295d048bce84a57b9effcd74a6f1e7d8f667a5a1ce9fb7a57f7a62654386fda8a32ffa18a8b0211&CHRESPONSE=eb6d9207c9ea29802e340fe529391d6edf193dc1
+-> request: /v1/api/iserver/auth/status
+-> GET /v1/api/portfolio/accounts
+-> GET /v1/api/iserver/auth/status,200|106ms
+-> request: /v1/api/iserver/auth/ssodh/init
+<- 200 GET /v1/api/portfolio/accounts
+-> GET /v1/api/trsrv/stocks?symbols=AMD
+<- 200 GET /v1/api/trsrv/stocks?symbols=AMD
+-> GET /v1/api/one/user,503|10112ms
+-> GET /v1/api/iserver/marketdata/history?conid=undefined
+-> GET /v1/api/iserver/marketdata/history?conid=4391
+-> POST https://api.ibkr.com/v1/api/iserver/auth/ssodh/init,503|10213ms
+<- 401 GET /v1/api/iserver/marketdata/history?conid=4391
+<- 401 GET /v1/api/iserver/marketdata/history?conid=undefined
+-> GET /v1/api/iserver/marketdata/history?conid=4391
+<- 401 GET /v1/api/iserver/marketdata/history?conid=4391
+-> GET /v1/api/iserver/marketdata/history?conid=4391
+<- 401 GET /v1/api/iserver/marketdata/history?conid=4391
+-> GET /v1/api/iserver/marketdata/history?conid=4391
+<- 401 GET /v1/api/iserver/marketdata/history?conid=4391
+-> request: /sso/ping
+-> GET /sso/ping,200|502ms
+-> request: /sso/ping
+-> GET /sso/ping,200|505ms
+-> request: /sso/ping
+-> GET /sso/ping,200|503ms
+-> request: /sso/ping
+-> GET /sso/ping,200|1026ms
+-> request: /sso/ping
+-> GET /sso/ping,200|307ms
+-> request: /sso/ping
+-> GET /sso/ping,200|502ms
+-> GET /v1/api/iserver/marketdata/history?conid=4391
+<- 401 GET /v1/api/iserver/marketdata/history?conid=4391
+-> GET /v1/api/iserver/marketdata/history?conid=4391
+<- 401 GET /v1/api/iserver/marketdata/history?conid=4391
+-> GET /v1/api/iserver/marketdata/history?conid=4391
+<- 401 GET /v1/api/iserver/marketdata/history?conid=4391
+-> GET /v1/api/iserver/marketdata/history?conid=4391
+<- 401 GET /v1/api/iserver/marketdata/history?conid=4391
+-> GET /v1/api/iserver/marketdata/history?conid=4391
+<- 401 GET /v1/api/iserver/marketdata/history?conid=4391
+-> GET /v1/api/iserver/marketdata/history?conid=4391
+<- 401 GET /v1/api/iserver/marketdata/history?conid=4391
+-> GET /v1/api/iserver/marketdata/history?conid=4391
+<- 401 GET /v1/api/iserver/marketdata/history?conid=4391
+-> GET /v1/api/iserver/marketdata/history?conid=4391
+<- 401 GET /v1/api/iserver/marketdata/history?conid=4391
+-> GET /v1/api/iserver/marketdata/history?conid=4391
+<- 401 GET /v1/api/iserver/marketdata/history?conid=4391
+-> GET /v1/api/iserver/marketdata/history?conid=4391
+<- 401 GET /v1/api/iserver/marketdata/history?conid=4391
+-> GET /v1/api/iserver/marketdata/history?conid=4391
+<- 401 GET /v1/api/iserver/marketdata/history?conid=4391
+-> GET /v1/api/iserver/marketdata/history?conid=4391
+<- 401 GET /v1/api/iserver/marketdata/history?conid=4391
+-> GET /v1/api/iserver/marketdata/history?conid=4391
+<- 401 GET /v1/api/iserver/marketdata/history?conid=4391
+-> GET /v1/api/iserver/marketdata/history?conid=4391
+<- 401 GET /v1/api/iserver/marketdata/history?conid=4391
+-> request: /sso/ping
+-> GET /sso/ping,200|343ms
+-> GET /v1/api/iserver/marketdata/history?conid=4391
+<- 401 GET /v1/api/iserver/marketdata/history?conid=4391
+-> request: /sso/ping
+-> GET /sso/ping,200|523ms
+-> GET /v1/api/iserver/marketdata/history?conid=4391
+<- 401 GET /v1/api/iserver/marketdata/history?conid=4391
+-> request: /sso/ping
+-> GET /sso/ping,200|504ms
+-> GET /v1/api/iserver/marketdata/history?conid=4391
+<- 401 GET /v1/api/iserver/marketdata/history?conid=4391
+-> GET /v1/api/iserver/marketdata/history?conid=4391
+<- 401 GET /v1/api/iserver/marketdata/history?conid=4391
+-> GET /v1/api/iserver/marketdata/history?conid=4391
+<- 401 GET /v1/api/iserver/marketdata/history?conid=4391
+-> GET /v1/api/iserver/marketdata/history?conid=4391
+<- 401 GET /v1/api/iserver/marketdata/history?conid=4391
+-> GET /v1/api/iserver/marketdata/history?conid=4391
+<- 401 GET /v1/api/iserver/marketdata/history?conid=4391
+-> GET /v1/api/iserver/marketdata/history?conid=4391
+<- 401 GET /v1/api/iserver/marketdata/history?conid=4391
+-> GET /v1/api/iserver/marketdata/history?conid=4391
+<- 401 GET /v1/api/iserver/marketdata/history?conid=4391
+-> GET /v1/api/iserver/marketdata/history?conid=4391
+<- 401 GET /v1/api/iserver/marketdata/history?conid=4391
+-> GET /v1/api/iserver/marketdata/history?conid=4391
+<- 401 GET /v1/api/iserver/marketdata/history?conid=4391
+-> GET /v1/api/iserver/marketdata/history?conid=4391
+<- 401 GET /v1/api/iserver/marketdata/history?conid=4391
+-> GET /v1/api/iserver/marketdata/history?conid=4391
+<- 401 GET /v1/api/iserver/marketdata/history?conid=4391
+-> GET /v1/api/iserver/marketdata/history?conid=4391
+<- 401 GET /v1/api/iserver/marketdata/history?conid=4391
+-> GET /v1/api/iserver/marketdata/history?conid=4391
+<- 401 GET /v1/api/iserver/marketdata/history?conid=4391
+-> GET /v1/api/iserver/marketdata/history?conid=4391
+<- 401 GET /v1/api/iserver/marketdata/history?conid=4391
+-> GET /v1/api/iserver/marketdata/history?conid=4391
+<- 401 GET /v1/api/iserver/marketdata/history?conid=4391
+-> GET /v1/api/iserver/marketdata/history?conid=4391
+<- 401 GET /v1/api/iserver/marketdata/history?conid=4391
+-> GET /v1/api/iserver/marketdata/history?conid=4391
+<- 401 GET /v1/api/iserver/marketdata/history?conid=4391
+-> GET /v1/api/iserver/marketdata/history?conid=4391
+<- 401 GET /v1/api/iserver/marketdata/history?conid=4391
+-> GET /v1/api/iserver/marketdata/history?conid=4391
+<- 401 GET /v1/api/iserver/marketdata/history?conid=4391
+-> GET /v1/api/iserver/marketdata/history?conid=4391
+<- 401 GET /v1/api/iserver/marketdata/history?conid=4391
+-> GET /v1/api/iserver/marketdata/history?conid=4391
+<- 401 GET /v1/api/iserver/marketdata/history?conid=4391
+-> GET /v1/api/iserver/marketdata/history?conid=4391
+<- 401 GET /v1/api/iserver/marketdata/history?conid=4391
+-> GET /v1/api/iserver/marketdata/history?conid=4391
+<- 401 GET /v1/api/iserver/marketdata/history?conid=4391
+-> GET /v1/api/iserver/marketdata/history?conid=4391
+<- 401 GET /v1/api/iserver/marketdata/history?conid=4391
+-> GET /v1/api/iserver/marketdata/history?conid=4391
+<- 401 GET /v1/api/iserver/marketdata/history?conid=4391
+-> GET /v1/api/iserver/marketdata/history?conid=4391
+<- 401 GET /v1/api/iserver/marketdata/history?conid=4391
+-> GET /v1/api/iserver/marketdata/history?conid=4391
+<- 401 GET /v1/api/iserver/marketdata/history?conid=4391
+-> GET /v1/api/iserver/marketdata/history?conid=4391
+<- 401 GET /v1/api/iserver/marketdata/history?conid=4391
+-> GET /v1/api/iserver/marketdata/history?conid=4391
+<- 401 GET /v1/api/iserver/marketdata/history?conid=4391
+-> GET /v1/api/iserver/marketdata/history?conid=4391
+<- 401 GET /v1/api/iserver/marketdata/history?conid=4391
+-> GET /v1/api/iserver/marketdata/history?conid=4391
+<- 401 GET /v1/api/iserver/marketdata/history?conid=4391
+-> GET /v1/api/iserver/marketdata/history?conid=4391
+<- 401 GET /v1/api/iserver/marketdata/history?conid=4391
+-> GET /v1/api/iserver/marketdata/history?conid=4391
+<- 401 GET /v1/api/iserver/marketdata/history?conid=4391
+-> GET /v1/api/iserver/marketdata/history?conid=4391
+<- 401 GET /v1/api/iserver/marketdata/history?conid=4391
+-> GET /v1/api/iserver/marketdata/history?conid=4391
+<- 401 GET /v1/api/iserver/marketdata/history?conid=4391
+-> GET /v1/api/iserver/marketdata/history?conid=4391
+<- 401 GET /v1/api/iserver/marketdata/history?conid=4391
+-> GET /v1/api/iserver/marketdata/history?conid=4391
+<- 401 GET /v1/api/iserver/marketdata/history?conid=4391
+-> GET /v1/api/iserver/marketdata/history?conid=4391
+<- 401 GET /v1/api/iserver/marketdata/history?conid=4391
+-> GET /v1/api/iserver/marketdata/history?conid=4391
+<- 401 GET /v1/api/iserver/marketdata/history?conid=4391
+-> GET /v1/api/iserver/marketdata/history?conid=4391
+<- 401 GET /v1/api/iserver/marketdata/history?conid=4391
+-> GET /v1/api/iserver/marketdata/history?conid=4391
+<- 401 GET /v1/api/iserver/marketdata/history?conid=4391
+-> GET /v1/api/iserver/marketdata/history?conid=4391
+<- 401 GET /v1/api/iserver/marketdata/history?conid=4391
+-> GET /v1/api/iserver/marketdata/history?conid=4391
+<- 401 GET /v1/api/iserver/marketdata/history?conid=4391
+-> GET /v1/api/iserver/marketdata/history?conid=4391
+<- 401 GET /v1/api/iserver/marketdata/history?conid=4391
+-> GET /v1/api/iserver/marketdata/history?conid=4391
+<- 401 GET /v1/api/iserver/marketdata/history?conid=4391
+-> GET /v1/api/iserver/marketdata/history?conid=4391
+<- 401 GET /v1/api/iserver/marketdata/history?conid=4391
+-> GET /v1/api/iserver/marketdata/history?conid=4391
+<- 401 GET /v1/api/iserver/marketdata/history?conid=4391
+-> GET /v1/api/iserver/marketdata/history?conid=4391
+<- 401 GET /v1/api/iserver/marketdata/history?conid=4391
+-> request: /sso/ping
+-> GET /sso/ping,200|507ms
+-> GET /v1/api/iserver/marketdata/history?conid=4391
+<- 401 GET /v1/api/iserver/marketdata/history?conid=4391
+-> GET /v1/api/iserver/marketdata/history?conid=4391
+<- 401 GET /v1/api/iserver/marketdata/history?conid=4391
+-> GET /v1/api/iserver/marketdata/history?conid=4391
+<- 401 GET /v1/api/iserver/marketdata/history?conid=4391
+-> GET /v1/api/iserver/marketdata/history?conid=4391
+<- 401 GET /v1/api/iserver/marketdata/history?conid=4391
+-> GET /v1/api/iserver/marketdata/history?conid=4391
+<- 401 GET /v1/api/iserver/marketdata/history?conid=4391
+-> GET /v1/api/iserver/marketdata/history?conid=4391
+<- 401 GET /v1/api/iserver/marketdata/history?conid=4391
+-> GET /v1/api/iserver/marketdata/history?conid=4391
+<- 401 GET /v1/api/iserver/marketdata/history?conid=4391
+-> GET /v1/api/iserver/marketdata/history?conid=4391
+<- 401 GET /v1/api/iserver/marketdata/history?conid=4391
+-> GET /v1/api/iserver/marketdata/history?conid=4391
+<- 401 GET /v1/api/iserver/marketdata/history?conid=4391
+-> GET /v1/api/iserver/marketdata/history?conid=4391
+<- 401 GET /v1/api/iserver/marketdata/history?conid=4391
+-> GET /v1/api/iserver/marketdata/history?conid=undefined
+-> GET /v1/api/iserver/marketdata/history?conid=4391
+<- 401 GET /v1/api/iserver/marketdata/history?conid=undefined
+<- 401 GET /v1/api/iserver/marketdata/history?conid=4391
+-> GET /v1/api/iserver/marketdata/history?conid=4391
+<- 401 GET /v1/api/iserver/marketdata/history?conid=4391
+-> request: /sso/ping
+-> GET /sso/ping,200|505ms
+-> request: /sso/ping
+-> GET /sso/ping,200|504ms
+-> GET /v1/api/iserver/marketdata/history?conid=4391
+<- 401 GET /v1/api/iserver/marketdata/history?conid=4391
+-> GET /v1/api/iserver/marketdata/history?conid=4391
+<- 401 GET /v1/api/iserver/marketdata/history?conid=4391
+-> GET /v1/api/iserver/marketdata/history?conid=4391
+<- 401 GET /v1/api/iserver/marketdata/history?conid=4391
+-> request: /sso/ping
+-> GET /sso/ping,200|502ms
+-> request: /sso/ping
+-> GET /sso/ping,200|506ms
+-> request: /sso/ping
+-> GET /sso/ping,200|503ms
+-> GET /v1/api/portfolio/accounts
+<- 200 GET /v1/api/portfolio/accounts
+-> GET /v1/api/trsrv/stocks?symbols=AAPL
+<- 200 GET /v1/api/trsrv/stocks?symbols=AAPL
+-> request: /sso/ping
+-> GET /sso/ping,200|504ms
+-> GET /v1/api/portfolio/accounts
+<- 200 GET /v1/api/portfolio/accounts
+-> GET /v1/api/trsrv/stocks?symbols=AMD
+<- 200 GET /v1/api/trsrv/stocks?symbols=AMD
+-> GET /sso/Login?forwardTo=22&RL=1&ip2loc=US
+<- 200 GET /sso/Login?forwardTo=22&RL=1&ip2loc=US
+-> GET /sso/Templates/otp-responsive.css?1647931910037
+-> GET /scripts/common/js/switchery/switchery.min.js
+-> GET /scripts/common/js/switchery/switchery-init.js
+-> GET /scripts/common/js/icheck-1.0.2/icheck.min.js
+-> GET /scripts/common/js/icheck-1.0.2/icheck-init.js
+-> GET /sso/CombineFiles
+<- 200 GET /sso/Templates/otp-responsive.css?1647931910037
+-> GET /scripts/common/js/jquery-3.4.1/jquery.min.js
+<- 200 GET /scripts/common/js/icheck-1.0.2/icheck.min.js
+-> GET /scripts/common/js/jquery-ui-1.12.1/jquery-ui.min.js
+<- 200 GET /scripts/common/js/icheck-1.0.2/icheck-init.js
+-> GET /scripts/common/js/bootstrap-4.3.1/bootstrap.bundle.min.js
+<- 200 GET /scripts/common/js/switchery/switchery-init.js
+-> GET /scripts/common/js/bootstrap-switch-3.3.2/bootstrap-switch.min.js
+<- 200 GET /scripts/common/js/switchery/switchery.min.js
+<- 200 GET /scripts/common/js/jquery-3.4.1/jquery.min.js
+<- 200 GET /scripts/common/js/jquery-ui-1.12.1/jquery-ui.min.js
+<- 200 GET /scripts/common/js/bootstrap-4.3.1/bootstrap.bundle.min.js
+<- 200 GET /scripts/common/js/bootstrap-switch-3.3.2/bootstrap-switch.min.js
+-> GET /sso/images/2fa.png
+<- 200 GET /sso/images/2fa.png
+-> GET /images/2015/btn-app-apple.png
+<- 200 GET /images/2015/btn-app-apple.png
+-> GET /images/2015/btn-app-google.png
+<- 200 GET /images/2015/btn-app-google.png
+-> GET /images/2015/btn-app-tws.png
+<- 200 GET /images/2015/btn-app-tws.png
+-> GET /images/2015/button_discover_apis.png
+<- 200 GET /images/2015/button_discover_apis.png
+<- 200 GET /sso/CombineFiles
+-> request: /sso/ping
+-> GET /sso/ping,200|500ms
+-> GET /v1/api/trsrv/stocks?symbols=AMD
+<- 200 GET /v1/api/trsrv/stocks?symbols=AMD
+-> request: /sso/ping
+-> GET /sso/ping,200|502ms
+-> request: /sso/ping
+-> GET /sso/ping,200|502ms
+-> GET /v1/api/md/snapshot?conids=265598
+<- 500 GET /v1/api/md/snapshot?conids=265598
+-> GET /v1/api/pa/performance?acctIds=F7063449
+<- 400 GET /v1/api/pa/performance?acctIds=F7063449
+-> POST /sso/Authenticator?40526
+<- 200 POST /sso/Authenticator?40526
+-> POST /sso/Authenticator?94772
+<- 200 POST /sso/Authenticator?94772
+-> POST /sso/Dispatcher
+<- 200 POST /sso/Dispatcher
+-> GET /scripts/common/js/jquery-3.4.1/jquery.min.js
+<- 304 GET /scripts/common/js/jquery-3.4.1/jquery.min.js
+-> GET /scripts/common/js/switchery/switchery-init.js
+-> GET /scripts/common/js/icheck-1.0.2/icheck-init.js
+-> GET /sso/CombineFiles
+-> GET /scripts/common/js/jquery-ui-1.12.1/jquery-ui.min.js
+-> GET /scripts/common/js/bootstrap-4.3.1/bootstrap.bundle.min.js
+-> GET /scripts/common/js/bootstrap-switch-3.3.2/bootstrap-switch.min.js
+<- 304 GET /scripts/common/js/switchery/switchery-init.js
+-> GET /scripts/common/js/switchery/switchery.min.js
+<- 304 GET /scripts/common/js/icheck-1.0.2/icheck-init.js
+<- 304 GET /scripts/common/js/bootstrap-switch-3.3.2/bootstrap-switch.min.js
+-> GET /scripts/common/js/icheck-1.0.2/icheck.min.js
+<- 304 GET /scripts/common/js/switchery/switchery.min.js
+<- 304 GET /scripts/common/js/icheck-1.0.2/icheck.min.js
+<- 304 GET /scripts/common/js/bootstrap-4.3.1/bootstrap.bundle.min.js
+<- 200 GET /scripts/common/js/jquery-ui-1.12.1/jquery-ui.min.js
+-> GET /sso/images/2fa.png
+<- 200 GET /sso/images/2fa.png
+<- 200 GET /sso/CombineFiles
+-> POST /sso/Authenticator?616
+<- 200 POST /sso/Authenticator?616
+-> POST /sso/Authenticator?26397
+<- 200 POST /sso/Authenticator?26397
+-> POST /sso/Dispatcher
+<- 302 POST /sso/Dispatcher
+-> request: /v1/api/sso/validate?gw=1
+-> request: /AccountManagement/OneBarAuthentication?json=1
+-> GET /AccountManagement/OneBarAuthentication?json=1,404|114ms
+-> GET /v1/api/sso/validate?gw=1,200|312ms
+-> request: /v1/api/one/user
+-> request: /sso/AuthenticateSSODH?ACTION=INIT
+-> sso GET https://api.ibkr.com/sso/AuthenticateSSODH?ACTION=INIT
+-> request: /sso/AuthenticateSSODH?ACTION=COMPLETE&B=b02eb686e5f863dc035a1d92467aaf528642d6ca5c62a89ff295d048bce84a57b9effcd74a6f1e7d8f667a5a1ce9fb7a57f7a62654386fda8a32ffa18a8b0211&CHRESPONSE=e05e076750515fc6934922a08a0bd396054667e9
+-> sso GET https://api.ibkr.com/sso/AuthenticateSSODH?ACTION=COMPLETE&B=b02eb686e5f863dc035a1d92467aaf528642d6ca5c62a89ff295d048bce84a57b9effcd74a6f1e7d8f667a5a1ce9fb7a57f7a62654386fda8a32ffa18a8b0211&CHRESPONSE=e05e076750515fc6934922a08a0bd396054667e9
+-> request: /v1/api/iserver/auth/status
+-> GET /v1/api/iserver/auth/status,200|104ms
+-> request: /v1/api/iserver/auth/ssodh/init
+-> GET /v1/api/one/user,503|10158ms
+-> GET /v1/api/pa/performance?acctIds=F7063449
+<- 400 GET /v1/api/pa/performance?acctIds=F7063449
+-> GET /v1/api/md/snapshot?conids=265598
+<- 500 GET /v1/api/md/snapshot?conids=265598
+-> POST https://api.ibkr.com/v1/api/iserver/auth/ssodh/init,503|10105ms
+-> request: /sso/ping
+-> GET /sso/ping,200|538ms
+-> request: /sso/ping
+-> GET /sso/ping,200|517ms
+-> request: /sso/ping
+-> GET /sso/ping,200|503ms
+-> request: /sso/ping
+-> GET /sso/ping,200|510ms
+-> request: /sso/ping
+-> GET /sso/ping,200|502ms
+-> request: /sso/ping
+-> GET /sso/ping,200|510ms
+-> request: /sso/ping
+-> GET /sso/ping,200|500ms
+-> request: /sso/ping
+-> GET /sso/ping,200|498ms
+-> request: /sso/ping
+-> GET /sso/ping,200|299ms
+-> request: /sso/ping
+-> GET /sso/ping,200|504ms
+-> request: /sso/ping
+-> GET /sso/ping,200|500ms
+-> request: /sso/ping
+-> GET /sso/ping,200|502ms
+-> request: /sso/ping
+-> GET /sso/ping,200|502ms
+-> request: /sso/ping
+-> GET /sso/ping,200|503ms
+-> request: /sso/ping
+-> GET /sso/ping,200|524ms
+-> request: /sso/ping
+-> GET /sso/ping,200|519ms
+-> request: /sso/ping
+-> GET /sso/ping,200|1164ms
+-> request: /sso/ping
+-> GET /sso/ping,200|500ms
+-> request: /sso/ping
+-> GET /sso/ping,200|500ms
+-> GET /v1/api/portfolio/accounts
+<- 200 GET /v1/api/portfolio/accounts
+-> GET /v1/api/trsrv/stocks?symbols=AMD
+<- 200 GET /v1/api/trsrv/stocks?symbols=AMD
+-> GET /v1/api/trsrv/stocks?symbols=AAPL
+<- 200 GET /v1/api/trsrv/stocks?symbols=AAPL
+-> request: /sso/ping
+-> GET /sso/ping,200|518ms
+-> request: /sso/ping
+-> GET /sso/ping,200|501ms
+-> request: /sso/ping
+-> GET /sso/ping,200|501ms
+-> request: /sso/ping
+-> GET /sso/ping,200|513ms
+-> request: /sso/ping
+-> GET /sso/ping,200|504ms
+-> request: /sso/ping
+-> GET /sso/ping,200|504ms
+-> request: /sso/ping
+-> GET /sso/ping,200|507ms
+-> request: /sso/ping
+-> GET /sso/ping,200|513ms
+-> request: /sso/ping
+-> GET /sso/ping,200|499ms
+-> request: /sso/ping
+-> GET /sso/ping,200|297ms
+-> request: /sso/ping
+-> GET /sso/ping,200|501ms
+-> request: /sso/ping
+-> GET /sso/ping,200|498ms
+-> request: /sso/ping
+-> GET /sso/ping,200|504ms
+-> request: /sso/ping
+-> GET /sso/ping,200|500ms
+-> request: /sso/ping
+-> GET /sso/ping,200|500ms
+-> request: /sso/ping
+-> GET /sso/ping,200|503ms
+-> request: /sso/ping
+-> GET /sso/ping,200|513ms
+-> request: /sso/ping
+-> GET /sso/ping,200|508ms
+-> request: /sso/ping
+-> GET /sso/ping,200|507ms
+-> request: /sso/ping
+-> GET /sso/ping,200|763ms
+-> request: /sso/ping
+-> GET /sso/ping,200|309ms
+-> request: /sso/ping
+-> GET /sso/ping,200|504ms
+-> request: /sso/ping
+-> GET /sso/ping,200|503ms
+-> request: /sso/ping
+-> GET /sso/ping,200|504ms
+-> request: /sso/ping
+-> GET /sso/ping,200|508ms
+-> request: /sso/ping
+-> GET /sso/ping,200|504ms
+-> request: /sso/ping
+-> GET /sso/ping,200|511ms
+-> request: /sso/ping
+-> GET /sso/ping,200|504ms
+-> request: /sso/ping
+-> GET /sso/ping,200|502ms
+-> request: /sso/ping
+-> GET /sso/ping,200|502ms
+-> GET /sso/Login?forwardTo=22&RL=1&ip2loc=US
+<- 200 GET /sso/Login?forwardTo=22&RL=1&ip2loc=US
+-> GET /sso/Templates/otp-responsive.css?1647969169570
+-> GET /scripts/common/js/bootstrap-switch-3.3.2/bootstrap-switch.min.js
+-> GET /scripts/common/js/switchery/switchery.min.js
+-> GET /scripts/common/js/icheck-1.0.2/icheck.min.js
+-> GET /scripts/common/js/icheck-1.0.2/icheck-init.js
+-> GET /sso/CombineFiles
+<- 200 GET /sso/Templates/otp-responsive.css?1647969169570
+-> GET /scripts/common/js/jquery-3.4.1/jquery.min.js
+<- 200 GET /scripts/common/js/bootstrap-switch-3.3.2/bootstrap-switch.min.js
+-> GET /scripts/common/js/jquery-ui-1.12.1/jquery-ui.min.js
+<- 200 GET /scripts/common/js/switchery/switchery.min.js
+-> GET /scripts/common/js/bootstrap-4.3.1/bootstrap.bundle.min.js
+<- 200 GET /scripts/common/js/icheck-1.0.2/icheck-init.js
+-> GET /scripts/common/js/switchery/switchery-init.js
+<- 200 GET /scripts/common/js/icheck-1.0.2/icheck.min.js
+<- 200 GET /scripts/common/js/bootstrap-4.3.1/bootstrap.bundle.min.js
+<- 200 GET /scripts/common/js/switchery/switchery-init.js
+<- 200 GET /scripts/common/js/jquery-ui-1.12.1/jquery-ui.min.js
+<- 200 GET /scripts/common/js/jquery-3.4.1/jquery.min.js
+-> GET /sso/images/2fa.png
+<- 200 GET /sso/images/2fa.png
+-> GET /images/2015/btn-app-apple.png
+<- 200 GET /images/2015/btn-app-apple.png
+-> GET /images/2015/btn-app-google.png
+<- 200 GET /images/2015/btn-app-google.png
+-> GET /images/2015/btn-app-tws.png
+<- 200 GET /sso/CombineFiles
+<- 200 GET /images/2015/btn-app-tws.png
+-> GET /images/2015/button_discover_apis.png
+<- 200 GET /images/2015/button_discover_apis.png
